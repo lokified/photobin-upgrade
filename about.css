@@ -1,0 +1,78 @@
+body{
+    background-image: url(images/Grey\ Sunset.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.head{
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+
+.links li{
+    padding: 20px;
+    display: block;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    border-right: 2px solid black;
+    padding-right: 40px;
+    font-size: 25px;
+    
+}
+.links a:hover{
+    color: white;
+}
+.content{
+    width: 500px;
+    text-align: center;
+    margin: 0 35%;
+}
+.in-content{
+    color: black;
+}
+h3{
+    color: black;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.last-1{
+    width: 400px;
+}
+.last-2 a{
+    text-decoration: none;
+}
+.last-2 li{
+    color: blueviolet;
+}
+.last-3 li{
+    color: blueviolet;
+}
+.last-4{
+    text-align: center;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding: 15px;
+    padding-top: 50px;
+    
+}
+.socials a{
+    padding: 10px;
+}

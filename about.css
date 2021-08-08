@@ -34,10 +34,14 @@ body{
 .links a:hover{
     color: white;
 }
-.content{
+.main{
     width: 500px;
     text-align: center;
     margin: 0 35%;
+    background-color: white;
+    color: rgb(63, 62, 62);
+    opacity: .8;
+    padding: 10px;
 }
 .in-content{
     color: black;

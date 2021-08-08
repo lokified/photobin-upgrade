@@ -1,0 +1,114 @@
+body{
+    background-image: url(images/Grey\ Sunset.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.head{
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+
+.links li{
+    padding: 20px;
+    display: block;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    border-right: 2px solid black;
+    padding-right: 40px;
+    font-size: 25px;
+    
+}
+.links a:hover{
+    color: white;
+}
+
+
+
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.last-1{
+    width: 400px;
+    
+}
+.last-2 a{
+    text-decoration: none;
+}
+.last-2 li{
+    color: blueviolet;
+}
+.last-3 li{
+    color: blueviolet;
+}
+.last-4{
+    text-align: center;
+    color: white;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding: 15px;
+    padding-top: 50px;
+    
+}
+.socials a{
+    padding: 10px;
+}
+
+
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.pics{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    border: 3px solid black;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+.pics p{
+    padding: 0px 5px;
+}
+
+.content{
+    height: 450px;
+    background-color: white;
+    opacity: .8;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0 200PX;
+    
+    padding: 5px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: black;
+}

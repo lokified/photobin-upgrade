@@ -34,6 +34,7 @@ body{
 }
 .links a:hover{
     color: white;
+    padding: 5px ;
 }
 
 
@@ -113,4 +114,9 @@ body{
 }
 ::-webkit-scrollbar-thumb:hover{
     background-color: black;
+}
+button:hover{
+    color: white;
+    background-color: rgb(63, 62, 62);
+    padding: 5px;
 }

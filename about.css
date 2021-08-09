@@ -34,6 +34,7 @@ body{
 }
 .links a:hover{
     color: white;
+    padding: 5px ;
 }
 .main{
     width: 500px;

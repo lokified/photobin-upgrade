@@ -2,7 +2,7 @@ body{
     background-image: url(images/Grey\ Sunset.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    font-family: 'poppins';
 }
 .head{
     

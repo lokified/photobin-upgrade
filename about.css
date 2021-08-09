@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    font-family: 'poppins';
 }
 .head{
     
@@ -17,6 +18,7 @@ body{
     justify-content: space-between;
     padding-right: 20px;
     background-color: rgb(63, 62, 62);
+    
 }
 
 

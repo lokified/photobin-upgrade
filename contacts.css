@@ -2,6 +2,7 @@ body{
     background-image: url(images/Grey\ Sunset.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .head{
     
@@ -35,32 +36,50 @@ body{
     color: white;
 }
 
-.content{
-    width: 300px;
-    height: 200px;
-    background-color: rgb(155, 152, 152);
-    border-radius: 10px;
-    margin-left: 500px;
-    opacity: .8;
+.last{
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
-.content p{
-    padding: 5px;
+.last-1{
+    width: 400px;
+    
 }
-#press{
-    background-color: white;
-}
-#press a{
-    color: black;
+.last-2 a{
     text-decoration: none;
+}
+.last-2 li{
+    color: blueviolet;
+}
+.last-3 li{
+    color: blueviolet;
+}
+.last-4{
+    text-align: center;
+    color: white;
 }
 .socials{
     display: flex;
     flex-direction: column;
     float: right;
     padding: 15px;
-    padding-top: 90px;
+    padding-top: 50px;
     
 }
 .socials a{
     padding: 10px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+.contact-1{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    opacity: .5;
+    padding: 10px;
+    border-radius: 5px;
 }

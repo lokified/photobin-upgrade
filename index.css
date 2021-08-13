@@ -79,22 +79,23 @@ button:hover{
 }
 .last-4{
     
-    position: absolute;
-    bottom: 0;
+    text-align: center;
     
 }
 
 @media screen and (max-width: 700px) {
     body{
-        background-image: none;
-        background-color: rgb(63, 62, 62);
+        background-image: url(images/Grey\ Sunset.png);
+        background-size: cover;
         width: 100%;
-        
+        font-family: 'poppins';
         
     }
     .links{
-        padding: 20px;
+        padding: 0;
         display: block;
+        margin-right: 20px;
+        text-align: center;
     }
     .links li{
         background-color: rgb(155, 152, 152);
@@ -102,7 +103,7 @@ button:hover{
     }
     .links a{
         border: none;
-        padding: 10px;
+        padding: 10px 30px;
         margin: 1px 0;
         display: block;
         font-size: 20px;
@@ -114,5 +115,9 @@ button:hover{
     }
     .content{
         margin-left: 10px;
+    }
+    .last-4{
+        position: absolute;
+        margin: 30%;
     }
   }

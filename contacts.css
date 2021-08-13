@@ -84,3 +84,51 @@ body{
     padding: 10px;
     border-radius: 5px;
 }
+
+
+
+@media screen and (max-width: 700px) {
+    body{
+        background-image: url(images/Grey\ Sunset.png);
+        background-size: cover;
+        width: 100%;
+        font-family: 'poppins';
+        
+    }
+    .links{
+        padding: 0;
+        display: block;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .links li{
+        background-color: rgb(155, 152, 152);
+        padding: 0;
+    }
+    .links a{
+        border: none;
+        padding: 10px 20px;
+        margin: 1px 0;
+        display: block;
+        font-size: 20px;
+    }
+    .links a:hover{
+        color: white;
+        background-color: rgb(63, 62, 62);
+        cursor: pointer;
+    }
+    .contact{
+        display: inline;
+        
+    }
+    .contact-1{
+        margin: 30px 60px;
+    }
+    .last{
+        display: inline;
+    }
+    .last-4{
+        position: absolute;
+        margin: 30%;
+    }
+  }

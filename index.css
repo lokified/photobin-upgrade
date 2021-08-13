@@ -77,13 +77,42 @@ button:hover{
     color: white;
     padding: 5px;
 }
-
-@media only screen and(max-width:700px){
-    .links{
-        display: block;
-
-    }
-    body{
-      background-color: grey;
-    }
+.last-4{
+    
+    position: absolute;
+    bottom: 0;
+    
 }
+
+@media screen and (max-width: 700px) {
+    body{
+        background-image: none;
+        background-color: rgb(63, 62, 62);
+        width: 100%;
+        
+        
+    }
+    .links{
+        padding: 20px;
+        display: block;
+    }
+    .links li{
+        background-color: rgb(155, 152, 152);
+        padding: 0;
+    }
+    .links a{
+        border: none;
+        padding: 10px;
+        margin: 1px 0;
+        display: block;
+        font-size: 20px;
+    }
+    .links a:hover{
+        color: white;
+        background-color: rgb(63, 62, 62);
+        cursor: pointer;
+    }
+    .content{
+        margin-left: 10px;
+    }
+  }

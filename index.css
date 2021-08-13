@@ -92,32 +92,28 @@ button:hover{
         
     }
     .links{
-        padding: 0;
-        display: block;
-        margin-right: 20px;
-        text-align: center;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        background-color: unset;
     }
     .links li{
-        background-color: rgb(155, 152, 152);
         padding: 0;
     }
     .links a{
         border: none;
-        padding: 10px 30px;
-        margin: 1px 0;
-        display: block;
+        padding: 10px;
         font-size: 20px;
     }
     .links a:hover{
         color: white;
-        background-color: rgb(63, 62, 62);
-        cursor: pointer;
     }
     .content{
-        margin-left: 10px;
+        margin-left: 40px;
     }
     .last-4{
         position: absolute;
         margin: 30%;
+        color: white;
     }
   }

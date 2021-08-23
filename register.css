@@ -1,0 +1,56 @@
+body{
+    background-image: url(/upgrade/images/Grey\ Sunset.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins';
+}
+.card{
+    width: 430px;
+    height: 630px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    opacity: .8;
+    padding-top: 5px;
+}
+.card-input{
+    width: 95%;
+    height: 30px;
+    margin-top: 20px;
+}
+.card h2{
+    font-style: italic;
+}
+.card-button{
+    margin-top: 20px;
+    width: 95%;
+    height: 30px;
+    border: 0px;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    font-size: 15px;
+}
+#show{
+    margin-top: 20px;
+    margin-left: -260px;
+    
+}
+.last-4{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 140px;
+    font-size: 10px;
+}
+#reg{
+    margin-left: -200px;
+    padding-bottom: 10px;
+}
+#reg a{
+    color: rgb(63, 62, 62);
+}
+#reg a:hover{
+    color: blueviolet;
+}
+

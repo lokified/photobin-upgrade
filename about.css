@@ -36,7 +36,7 @@ body{
 }
 .links a:hover{
     color: white;
-    padding: 5px ;
+    
 }
 .main{
     width: 35%;
@@ -63,6 +63,7 @@ h3{
 }
 .last-2 a{
     text-decoration: none;
+    color: blueviolet;
 }
 .last-2 li{
     color: blueviolet;
@@ -84,6 +85,12 @@ h3{
 .socials a{
     padding: 10px;
 }
+.reg-links ul{
+    color: blueviolet;
+}
+.reg-links a{
+    text-decoration: none;
+}
 
 
 
@@ -103,6 +110,7 @@ h3{
     }
     .links li{
         padding: 0;
+        border-right: 2px solid black;
     }
     .links a{
         border: none;

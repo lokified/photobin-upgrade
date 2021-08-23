@@ -34,7 +34,7 @@ body{
 }
 .links a:hover{
     color: white;
-    padding: 5px ;
+    
 }
 
 .last{
@@ -48,6 +48,7 @@ body{
 }
 .last-2 a{
     text-decoration: none;
+    color: blueviolet;
 }
 .last-2 li{
     color: blueviolet;
@@ -84,6 +85,12 @@ body{
     padding: 10px;
     border-radius: 5px;
 }
+.reg-links ul{
+    color: blueviolet;
+}
+.reg-links a{
+    text-decoration: none;
+}
 
 
 
@@ -103,6 +110,7 @@ body{
     }
     .links li{
         padding: 0;
+        border-right: 2px solid black;
     }
     .links a{
         border: none;

@@ -78,9 +78,11 @@ body{
 
 .pictures{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 30px 5px;
+    overflow: scroll;
+    overflow-y: hidden;
+    margin: 10px;
 }
 .pics{
     height: 300px;
@@ -91,9 +93,15 @@ body{
     border-radius: 4px;
     text-align: center;
     padding-bottom: 20px;
+    margin-right: 10px;
 }
 .pics p{
     padding: 0px 5px;
+}
+#next{
+    position: absolute;
+    top: 52%;
+    left: 75%;
 }
 
 .content{

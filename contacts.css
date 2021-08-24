@@ -77,6 +77,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 100px;
+    
 }
 .contact-1{
     width: 300px;
@@ -120,6 +121,7 @@ body{
     }
     .links a:hover{
         color: white;
+        font-size: 20px;
     }
     .contact{
         display: inline;

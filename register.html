@@ -13,8 +13,8 @@
         <form action="">
         <input type="text" placeholder="enter first name" class="card-input">
         <input type="text" placeholder="enter last name" class="card-input">
-        <input type="text" placeholder="enter Id number" class="card-input">
-        <input type="text" placeholder="enter phone number" class="card-input">
+        <input type="text" placeholder="enter Id number" class="card-input" id="show-number">
+        <input type="text" placeholder="enter phone number" class="card-input" id="show-number2">
         <input type="date" placeholder="d.o.b" class="card-input" >
         <input type="text" placeholder="enter e-mail" class="card-input">
         <input type="password" placeholder="enter password" class="card-input"  id="puts">
@@ -22,9 +22,10 @@
         <input type="checkbox" id="show" onclick="hide()" >
         <label for="show">Show password</label><br>
         <script src="mine.js"></script>
-        <button type="button" class="card-button">SUBMIT</button>
+        <button type="button" class="card-button" onclick="show()">SUBMIT</button>
         </form>
-        
+        <p id="show-here"></p>
+        <script src="mine.js"></script>
         <p id="reg">Already registered? <a href="log.html"> Log in</a></p>
         <p class="last-4">&copy;Copyright 2021. Photobin</p>
     </div>
